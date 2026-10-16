@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://intense-services.vercel.app/sitemap.xml

@@ -27,7 +27,7 @@
         if (en.isIntersecting) { en.target.classList.add('in'); io.unobserve(en.target); }
       });
     }, { threshold: 0.15 });
-    document.querySelectorAll('.svc-list li, .step-list li, .faq details').forEach(function (el, i) {
+    document.querySelectorAll('.cards li, .step-list li, .faq details').forEach(function (el, i) {
       el.style.setProperty('--d', (i % 6) * 60 + 'ms');
       io.observe(el);
     });
